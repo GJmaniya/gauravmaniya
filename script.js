@@ -224,12 +224,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Static array of projects mimicking GitHub data structure
             const filteredData = [
-                { name: 'digital-attendance', html_url: '#', language: 'Python' },
-                { name: 'stock-price', html_url: '#', language: 'Python' },
-                { name: 'page-scroller', html_url: '#', language: 'JavaScript' },
-                { name: 'virtual-mouse', html_url: '#', language: 'Python' },
-                { name: 'gmail-bot', html_url: '#', language: 'Python' },
-                { name: 'tic-tac-toe', html_url: '#', language: 'Python' }
+                { name: 'digital-attendance', html_url: 'https://github.com/GJmaniya/digital-attendance', language: 'Python' },
+                { name: 'stock-price', html_url: 'https://github.com/GJmaniya/stock-price', language: 'Python' },
+                { name: 'page-scroller', html_url: 'https://github.com/GJmaniya/page-scroller', language: 'JavaScript' },
+                { name: 'virtual-mouse', html_url: 'https://github.com/GJmaniya/virtual-mouse', language: 'Python' },
+                { name: 'gmail-bot', html_url: 'https://github.com/GJmaniya/gmail-bot', language: 'Python' },
+                { name: 'tic-tac-toe', html_url: 'https://github.com/GJmaniya/tic-tac-toe', language: 'Python' }
             ];
 
             const projectMetadata = {
